@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b0022aa2f135d64350ef160199816e030a4863d919da632093e320e6ecfa79d5
-size 519
+function loginwithpwd() {
+	if (document.all.username.value.length == 0) {
+		alert("请输入用户名！");
+		document.all.username.focus();	
+		return false;
+	}	
+	if (document.all.password.value.length == 0) {
+		alert("请输入密码！");
+		document.all.password.focus();		
+		return false;
+	}	
+	if ((document.all.password.value.length >0) && (document.all.username.value.length > 0)) {
+		document.getElementById("Submit").disabled  = true;
+		document.getElementById("Submit2").disabled  = true;
+		form1.submit();
+	}
+}

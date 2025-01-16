@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dfa451c7a059260ceaff33e3ea7e8dc7afd39458f35a503276b103a251c88516
-size 126
+# HTML
+## 效果页面: https://mrfan6.github.io/Naruto/index.html
+### 仅使用了HTML+CSS+少量JS 以及响应式的应用
